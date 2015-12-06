@@ -13,7 +13,12 @@ class GameScene: SKScene {
        backgroundColor=SKColor.whiteColor()
        let background=SKSpriteNode(imageNamed: "background1")
         background.position=CGPoint(x: size.width/2, y: size.height/2)
+        //background.zRotation=CGFloat(M_PI)/8
+        //Prevent invisible zombies
+        background.zPosition  = -1
        addChild(background)
+        let mysize=background.size
+        print("Size:\(mysize)")
     }
     
   }
