@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE8C2E4F1C14D11000078FEB /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FE8C2E4E1C14D11000078FEB /* sprites.atlas */; };
 		FEE6A61B1C131A94001FC359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6A61A1C131A94001FC359 /* AppDelegate.swift */; };
 		FEE6A61F1C131A94001FC359 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6A61E1C131A94001FC359 /* GameScene.swift */; };
 		FEE6A6211C131A94001FC359 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6A6201C131A94001FC359 /* GameViewController.swift */; };
@@ -20,7 +21,6 @@
 		FEE6A6551C131C20001FC359 /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A64F1C131C20001FC359 /* MainMenu.png */; };
 		FEE6A6561C131C20001FC359 /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A6501C131C20001FC359 /* YouLose.png */; };
 		FEE6A6571C131C20001FC359 /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A6511C131C20001FC359 /* YouWin.png */; };
-		FEE6A6581C131C20001FC359 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A6521C131C20001FC359 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE8C2E4E1C14D11000078FEB /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 		FEE6A6171C131A94001FC359 /* ZOMBIECONGORS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOMBIECONGORS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE6A61A1C131A94001FC359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEE6A61E1C131A94001FC359 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		FEE6A64F1C131C20001FC359 /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
 		FEE6A6501C131C20001FC359 /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLose.png; sourceTree = "<group>"; };
 		FEE6A6511C131C20001FC359 /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
-		FEE6A6521C131C20001FC359 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +91,8 @@
 		FEE6A60E1C131A93001FC359 = {
 			isa = PBXGroup;
 			children = (
+				FE8C2E4E1C14D11000078FEB /* sprites.atlas */,
 				FEE6A64C1C131C20001FC359 /* Images */,
-				FEE6A6521C131C20001FC359 /* sprites.atlas */,
 				FEE6A6191C131A94001FC359 /* ZOMBIECONGORS */,
 				FEE6A6321C131A95001FC359 /* ZOMBIECONGORSTests */,
 				FEE6A63D1C131A95001FC359 /* ZOMBIECONGORSUITests */,
@@ -258,8 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE6A6581C131C20001FC359 /* sprites.atlas in Resources */,
 				FEE6A6551C131C20001FC359 /* MainMenu.png in Resources */,
+				FE8C2E4F1C14D11000078FEB /* sprites.atlas in Resources */,
 				FEE6A6291C131A94001FC359 /* LaunchScreen.storyboard in Resources */,
 				FEE6A6261C131A94001FC359 /* Assets.xcassets in Resources */,
 				FEE6A6531C131C20001FC359 /* background1.png in Resources */,
